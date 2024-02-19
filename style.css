@@ -1,0 +1,94 @@
+
+body{
+    text-align: center;
+    font-family:'Dosis', sans-serif;
+    color: #3F3D56;
+}
+
+#imgtop {
+    margin: 64px 337px 0px 337px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h1 span {
+    font-weight: medium;
+    color: #EE24FF;
+}
+
+
+p span {
+    font-weight: bold;
+    color: #3F3D56;
+}
+
+#container {
+    width: 540px;
+    height: 107px;
+    font-family: 'Open Sans', sans-serifs;
+    font-size: 15px;
+    color: #828282;
+    margin: 29px auto 0;
+}
+
+#p3 {
+    width: 540px;
+    font-family: 'Open Sans', sans-serifs;
+    font-size: 15px;
+    color: #828282;
+    margin:  32px auto 0; /* Define as margens laterais como 'auto' para centralizar horizontalmente */
+    text-align: justify; 
+    
+}
+
+.footer-container {
+    margin: 0 auto; /* Define as margens superior e inferior como 0 e as laterais como 'auto' para centralizar horizontalmente */
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: left;
+}
+
+a {
+    margin-top: 16px;
+    margin-right: 42px; /* Define a margem direita de 42px para todos os elementos <a> */
+    margin-bottom: 52px;
+}
+
+/*No seu a, voce estava colocando uma margin-right nos 3, entao ele deslocava do centro.
+Voce pode resolver usando o a + a, que serve para voce modificar apenas o 'a' que tiver um 'a' antes dele,
+e mudar a margin de right para left.
+/* Para evitar que o último elemento tenha margem à direita */
+/* a:last-child {
+    margin-right: 0; /* Define a margem direita como 0 para o último elemento <a> */
+
+/*versão corrigida*/
+a + a {
+    margin-top: 16px;
+    margin-left: 42px;
+    margin-bottom: 52px;
+    }
+
+/*Na sua linha, eu removi o position: absolut, e passei o display block,
+para ocorrer uma quebra de linha apos a sua imagem, e ela ja alinhou com o seu margin: auto.
+Ele nao estava funcionando antes por conta do position: absolut. */
+#linha{
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+#onda {
+    position: absolute;
+    align-items: center;
+}
