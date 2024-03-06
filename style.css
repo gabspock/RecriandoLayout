@@ -92,3 +92,16 @@ Ele nao estava funcionando antes por conta do position: absolut. */
     position: absolute;
     align-items: center;
 }
+
+#made {
+    font-size: 14px;
+    color: #444444;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+#made a {
+    color: #8d8d8d;
+    text-decoration: none;
+}
